@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../../public/logo.png'
 import styles from '../../styles/Header.module.css'
 
 const Header = ({heading}) => {
   return (
     <div className={styles.header}>
-        <Image alt='QuillBot' src={logo} /> 
+        <Image width={25} height = {25} alt='QuillBot' src='/logo.png' /> 
         <h2>{heading}</h2>
     </div>
   )
