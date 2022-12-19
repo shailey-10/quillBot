@@ -1,0 +1,49 @@
+.container {
+  padding: 3rem 10rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.page{
+  display: flex;
+  column-gap: 10px;
+}
+
+.inActivePage{
+  color: rgb(158, 158, 158);
+  cursor: pointer;
+}
+
+.activePage{
+  color: green !important;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    padding: 20px;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .footer button{
+    background-color: transparent;
+    border: none;
+  }
+
+}

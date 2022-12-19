@@ -1,0 +1,35 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.searchBar{
+    width: 75%;
+    height: 40px;
+    border-radius: 50px;
+    outline: 1px solid rgb(172, 172, 172);
+    border: none;
+    text-indent: 20px;
+}
+
+.sort{
+    outline: none;
+    color: #3D82EB;
+    border: none;
+}
+
+.log{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .filter{
+      display: block;
+    }
+    .searchBar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,78 @@
+.container {
+    padding: 3rem 10rem;
+  }
+  
+.log{
+    border: 1px solid rgba(51, 51, 51, 0.187);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log h2{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.log p{
+    font-size: 14px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+      padding: 20px;
+    }
+
+    .log p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer button{
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .footer button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .page{
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  .inActivePage{
+    color: rgb(158, 158, 158);
+    cursor: pointer;
+  }
+  
+  .activePage{
+    color: green !important;
+    cursor: pointer;
+  
+  }
